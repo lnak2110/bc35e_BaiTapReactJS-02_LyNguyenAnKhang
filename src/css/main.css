@@ -1,0 +1,64 @@
+body {
+  height: 100vh;
+  background-image: url('/public/glassesImage/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.models {
+  padding: 50px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.model {
+  width: 300px;
+  position: relative;
+}
+
+.model img {
+  width: 100%;
+}
+
+.glassesContainer {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.glassesItem {
+  cursor: pointer;
+}
+
+.glassesInfo {
+  background-color: rgba(202, 134, 9, 0.6);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 10px;
+}
+
+.glassesInfo h3 {
+  color: blue;
+}
+
+.glassesInfo p {
+  color: white;
+}
+
+.glassesDisplay {
+  position: absolute;
+  top: 90px;
+  left: 60px;
+  width: 60%;
+}
+
+.glassesDisplay {
+  opacity: 0.5;
+}
